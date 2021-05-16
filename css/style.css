@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff") format("woff2"),
+    url("../fonts/Poppins-Medium.woff2") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff") format("woff2"),
+    url("../fonts/Poppins-Medium.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #9e9aa8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shorten{
+  background-image: url("../img/shorten.svg");
+  width: 1110px;
+  height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.all {
+  border-radius: 10px;
+  background-color: #3A3054;
+}
+
+.shorten-button{
+  width: 769px;
+  height: 64px;
+  border-radius: 10px;
+  margin-left: 64px;
+  padding-left: 32px;
+}
+
+.shorten-it-link{
+  font-family: "Poppins";
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+  padding: 17px 40px;
+  background-color: rgba(43, 208, 208, 1);
+  border-radius: 10px;
+  margin-left: 24px;
+}
+
+.main{
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  /* height: 1000px; */
+}
+
+.site-main-middle{
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.site-main-middle h2{
+  padding-top: 120px;
+  /* font-family: 'Poppins',sans-serif; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #34313D;
+  margin: ;
+  padding: 0;
+}
+
+.site-main-middle p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.122727px;
+  color: #9E9AA8;
+  margin: 0;
+  padding: 0;
+}
+
+.middle-icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand{
+  background-color: rgba(255, 255, 255, 1);
+  width: 350px;
+  height: 300px;
+  padding-left: 33px;
+}
+
+.nain-middle-link{
+  border-radius: 5px;
+}
+
+.nain-middle-link h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #34313D;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 13px;
+  margin-top: 5px;
+}
+
+.nain-middle-link h3::before{
+  content: '';
+  display: block;
+  width: 88px;
+  height: 88px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: rgba(58, 48, 84, 1);
+  margin-bottom: 33px;
+}
+
+.brand h3::before{
+  background-image: url("../img/Combined\ Shape\ \(1\).svg");
+}
+
+.detailed{
+  background-color: rgba(255, 255, 255, 1);
+  width: 350px;
+  height: 300px;
+  padding-left: 33px;
+  margin-top: 40px;
+}
+.fully{
+  background-color: rgba(255, 255, 255, 1);
+  width: 350px;
+  height: 300px;
+  padding-left: 33px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.detailed h3::before{
+  background-image: url("../img/Combined\ Shape\ \(2\)\ \(1\).svg");
+}
+
+.fully h3::before{
+  background-image: url("../img/Shape\ \(1\).svg");
+}
+
+.nain-middle-link p{
+  width: 286px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9E9AA8;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 41px;
+}
+
+.boost{
+  background-image: url("../img/boost-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 57px 0;
+}
+
+.boost-heading{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  margin-top: 57px;
+}
+.boost-link{
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 40px;
+  background-color: rgba(43, 208, 208, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  border-radius: 28px;
+  width: 201px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  transition: background-color 0.5s ease;
+}
+
+.boost-link:hover{
+  background-color: rgba(154, 227, 227, 1);
+
+}
+
+.boost {
+  background-image: url("../img/back-img.svg");
+}
