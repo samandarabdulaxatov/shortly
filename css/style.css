@@ -33,13 +33,7 @@ body {
   font-size: 15px;
   line-height: 26px;
   font-weight: 500;
-  background-color: #fff;
-  color: #9e9aa8;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  /* background-color: #FFFFFF; */
 }
 
 .container {
@@ -48,6 +42,163 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+/* SITE-HEADER */
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-weight: bold;
+}
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SITENAV */
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  margin-right: 45px;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.logo-img {
+  display: block;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-right: 30px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
+}
+
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color: #9e9aa8;
+  transition: color 0.3s ease;
+}
+
+.sitenav-link:hover {
+  color: #34313d;
+}
+
+/* PROFILE-LINKS */
+.profile-links {
+  display: flex;
+  align-items: center;
+}
+
+.profile-links-login {
+  display: block;
+  margin-right: 35px;
+  text-decoration: none;
+  color: #9e9aa8;
+  transition: color 0.3s ease;
+}
+
+.profile-links-login:hover {
+  color: #34313d;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 9px 24px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button-primary {
+  background-color: #2bd0d0;
+  color: #fff;
+  transition: background-color 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #9ae3e3;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
+.button-pill {
+  border-radius: 28px;
+}
+
+
+/* HERO */
+.hero {
+  padding-top: 130px;
+  background-image: url("../img/hero-bg\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 475px) 30px;
+}
+
+.hero-content {
+  max-width: 565px;
+}
+
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 80px;
+  line-height: 90px;
+  color: #34313d;
+  letter-spacing: -2px;
+}
+
+.hero-text {
+  max-width: 540px;
+  margin-top: 0;
+  margin-bottom: 38px;
+  font-size: 22px;
+  line-height: 38px;
+  color: #9E9AA8;
+}
+
+.hero-button {
+  padding: 13px 40px;
+  font-size: 20px;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .shorten{
@@ -61,6 +212,7 @@ img {
 .all {
   border-radius: 10px;
   background-color: #3A3054;
+  margin-top: 100px;
 }
 
 .shorten-button{
@@ -111,7 +263,7 @@ img {
   text-align: center;
   letter-spacing: -1px;
   color: #34313D;
-  margin: ;
+  margin: 0;
   padding: 0;
 }
 
@@ -139,8 +291,14 @@ img {
   padding-left: 33px;
 }
 
+.advanced-section {
+  padding: 120px 0px;
+  background-color: #F2F2F2;
+}
+
 .nain-middle-link{
   border-radius: 5px;
+  background-color: #FFFFFF;
 }
 
 .nain-middle-link h3{
@@ -208,7 +366,7 @@ img {
 }
 
 .boost{
-  background-image: url("../img/boost-icon.svg");
+  background-image: url("../fonts/boost-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 57px 0;
@@ -250,4 +408,49 @@ img {
 
 .boost {
   background-image: url("../img/back-img.svg");
+}
+
+.site-footer {
+  padding-top: 71px;
+  padding-bottom: 72px;
+  background-color: #232127;
+}
+
+.site-footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.list-footer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+}
+
+.footer-link {
+  font-family: "Poppins";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.234375px;
+  color: #BFBFBF;
 }
